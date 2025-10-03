@@ -1,5 +1,5 @@
 {
-    "name": "lucinda/framework-engine",
+    "name": "hlis/framework-engine",
     "type": "library",
     "description": "API integration engine for Lucinda Framework 3.0",
     "homepage": "https://github.com/aherne/lucinda-framework-engine",
@@ -12,29 +12,70 @@
         }
     ],
     "autoload": {
-    	"psr-4": {
-        	"Lucinda\\Framework\\": "src/",
-        	"Test\\Lucinda\\Framework\\": "tests/"
-            
-    	}
+        "psr-4": {
+            "Lucinda\\Framework\\": "src/",
+            "Test\\Lucinda\\Framework\\": "tests/"
+        }
     },
     "require": {
         "php": "^7.1|^8.0",
-        "ext-simplexml": "*",  
-        "lucinda/logging": "~3.0",
-        "lucinda/nosql-data-access": "~3.0",
-        "lucinda/oauth2-client": "~2.0",
-        "lucinda/security": "~3.0",
-        "lucinda/mvc": "~3.0",
-        "lucinda/console-mvc": "~1.0",
-        "lucinda/sql-data-access": "~3.0",
-        "lucinda/view-language": "~3.0",
-        "lucinda/internationalization": "~3.0",
-        "lucinda/errors-mvc": "~2.0",
-        "lucinda/headers": "~1.0",
-        "lucinda/abstract_mvc": "~1.0"
+        "ext-simplexml": "*",
+        "hlis/logging": "~3.0",
+        "hlis/nosql-data-access": "~3.0",
+        "hlis/oauth2-client": "~2.0",
+        "hlis/security": "~3.0",
+        "hlis/mvc": "~3.0",
+        "hlis/console-mvc": "~1.0",
+        "hlis/sql-data-access": "~3.0",
+        "hlis/view-language": "~3.0",
+        "hlis/internationalization": "~3.0",
+        "hlis/errors-mvc": "~2.0",
+        "hlis/headers": "~1.0",
+        "hlis/abstract_mvc": "~1.0"
     },
     "require-dev": {
-        "lucinda/unit-testing": "^1.0"
-    }
+        "hlis/unit-testing": "^1.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/errors-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-internationalization-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-logging-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-servlets-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-nosql-data-access-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/oauth2client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-security-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-sql-data-access-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/unit-testing"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-view-language-api"
+        }
+    ]
 }
