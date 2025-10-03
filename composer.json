@@ -1,8 +1,11 @@
 {
-    "name": "lucinda/framework-engine",
+    "name": "hlis/framework-engine",
     "type": "library",
     "description": "Engine behind Lucinda Framework 2.0",
-    "keywords": ["framework","engine"],
+    "keywords": [
+        "framework",
+        "engine"
+    ],
     "homepage": "http://www.lucinda-framework.com/framework-engine",
     "license": "MIT",
     "authors": [
@@ -13,19 +16,64 @@
         }
     ],
     "require": {
-        "ext-simplexml": "*",  
-        "lucinda/http-caching": "~2.0",
-        "lucinda/logging": "~2.0",
-        "lucinda/nosql-data-access": "~2.0",
-        "lucinda/oauth2-client": "~1.0",
-        "lucinda/security": "~2.0",
-        "lucinda/mvc": "~2.0",
-        "lucinda/errors-mvc": "~1.0",
-        "lucinda/sql-data-access": "~2.0",
-        "lucinda/view-language": "~2.0",
-        "lucinda/internationalization": "~2.0",
-        "lucinda/request-validator": "~1.0"
+        "ext-simplexml": "*",
+        "hlis/http-caching": "~2.0",
+        "hlis/logging": "~2.0",
+        "hlis/nosql-data-access": "~2.0",
+        "hlis/oauth2-client": "~1.0",
+        "hlis/security": "~2.0",
+        "hlis/mvc": "~2.0",
+        "hlis/errors-mvc": "~1.0",
+        "hlis/sql-data-access": "~2.0",
+        "hlis/view-language": "~2.0",
+        "hlis/internationalization": "~2.0",
+        "hlis/request-validator": "~1.0"
     },
-    "require-dev": {
-    }
+    "require-dev": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/errors-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/http-caching-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-internationalization-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-logging-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-servlets-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-nosql-data-access-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/oauth2client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-request-validator"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-security-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-sql-data-access-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-view-language-api"
+        }
+    ]
 }
