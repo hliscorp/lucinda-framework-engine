@@ -1,5 +1,5 @@
 {
-    "name": "lucinda/framework-engine",
+    "name": "hlis/framework-engine",
     "type": "library",
     "description": "API integration engine for Lucinda Framework 3.0",
     "homepage": "https://github.com/aherne/lucinda-framework-engine",
@@ -12,24 +12,49 @@
         }
     ],
     "autoload": {
-    	"psr-4": {
-        	"Lucinda\\Framework\\": "src/",
-        	"Test\\Lucinda\\Framework\\": "tests/"
-            
-    	}
+        "psr-4": {
+            "Lucinda\\Framework\\": "src/",
+            "Test\\Lucinda\\Framework\\": "tests/"
+        }
     },
     "require": {
         "php": "^8.1",
-        "ext-simplexml": "*",  
-        "lucinda/logging": "~4.0",
-        "lucinda/oauth2-client": "~3.0",
-        "lucinda/security": "~4.0",
-        "lucinda/mvc": "~4.0",
-        "lucinda/console-mvc": "~2.0",
-        "lucinda/errors-mvc": "~3.0",
-        "lucinda/headers": "~2.0"
+        "ext-simplexml": "*",
+        "hlis/logging": "~4.0",
+        "hlis/oauth2-client": "~3.0",
+        "hlis/security": "~4.0",
+        "hlis/mvc": "~4.0",
+        "hlis/console-mvc": "~2.0",
+        "hlis/errors-mvc": "~3.0",
+        "hlis/headers": "~2.0"
     },
     "require-dev": {
-        "lucinda/unit-testing": "^2.0"
-    }
+        "hlis/unit-testing": "^2.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/errors-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-logging-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-servlets-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/oauth2client"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/php-security-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/unit-testing"
+        }
+    ]
 }
