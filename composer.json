@@ -1,5 +1,5 @@
 {
-    "name": "hlis/framework-engine",
+    "name": "lucinda/framework-engine",
     "type": "library",
     "description": "Engine behind Lucinda Framework 2.0",
     "keywords": [
