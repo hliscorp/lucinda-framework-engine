@@ -1,5 +1,5 @@
 {
-    "name": "hlis/framework-engine",
+    "name": "lucinda/framework-engine",
     "type": "library",
     "description": "API integration engine for Lucinda Framework 3.0",
     "homepage": "https://github.com/aherne/lucinda-framework-engine",
