@@ -20,21 +20,21 @@
     "require": {
         "php": "^7.1|^8.0",
         "ext-simplexml": "*",
-        "hlis/logging": "~3.0",
-        "hlis/nosql-data-access": "~3.0",
-        "hlis/oauth2-client": "~2.0",
-        "hlis/security": "~3.0",
-        "hlis/mvc": "~3.0",
-        "hlis/console-mvc": "~1.0",
-        "hlis/sql-data-access": "~3.0",
-        "hlis/view-language": "~3.0",
-        "hlis/internationalization": "~3.0",
-        "hlis/errors-mvc": "~2.0",
-        "hlis/headers": "~1.0",
-        "hlis/abstract_mvc": "~1.0"
+        "lucinda/logging": "~3.0",
+        "lucinda/nosql-data-access": "~3.0",
+        "lucinda/oauth2-client": "~2.0",
+        "lucinda/security": "~3.0",
+        "lucinda/mvc": "~3.0",
+        "lucinda/console-mvc": "~1.0",
+        "lucinda/sql-data-access": "~3.0",
+        "lucinda/view-language": "~3.0",
+        "lucinda/internationalization": "~3.0",
+        "lucinda/errors-mvc": "~2.0",
+        "lucinda/headers": "~1.0",
+        "lucinda/abstract_mvc": "~1.0"
     },
     "require-dev": {
-        "hlis/unit-testing": "^1.0"
+        "lucinda/unit-testing": "^1.0"
     },
     "repositories": [
         {
@@ -76,6 +76,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/hliscorp/php-view-language-api"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/mvc"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/console_mvc"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/hliscorp/headers-api"
         }
     ]
 }
